@@ -7,7 +7,7 @@ import numpy as np
 import json
 
 # Charger les données de prévalence
-df = pd.read_csv('C:\\Users\\abart\\OneDrive\\Développement\\Données\\AM Pathos\\effectifs_patho_clean2.csv', sep=";")
+df = pd.read_csv('C:\\xxx\\effectifs_patho_clean2.csv', sep=";")
 
 
 pathologies_list = sorted(df['patho_niv3'].unique())
