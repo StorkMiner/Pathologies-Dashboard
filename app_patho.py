@@ -11,7 +11,7 @@ import os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Charger les données de prévalence
-df = pd.read_csv(os.path.join(current_dir, "data_patho_2019 - Copie.csv"), sep=";",encoding="utf-8")
+df = pd.read_csv(os.path.join(current_dir, "data_patho_2019.csv"), sep=";",encoding="utf-8")
 
 pathologies_list = sorted(df['patho_niv3'].unique())
 ages_list = sorted(df['AGE_ORD'].unique())
